@@ -53,6 +53,7 @@ conda install -c conda-forge rdkit=2019.09
 ```
 
 ## Model Preparation
+We provide the trained models through Zenodo.<br>
 You can use your own models trained using the official codes (https://github.com/coleygroup/Graph2SMILES and https://github.com/yuewan2/Retroformer).<br>
 More detailed instructions can be found in `demo.ipynb`.
 
