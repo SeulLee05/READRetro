@@ -3,10 +3,9 @@ This is the official code repository for the paper [*READRetro: Natural Product 
 We also provide [a web version](https://readretro.net) for ease of use.
 
 ## Data
-Download the necessary data from Zenodo to ensure proper execution of the code and demonstrations in this repository.</br>
-[READRetro_data](https://zenodo.org/records/10494636)</br>
+Download the necessary data folder `READRetro_data` from [Zenodo](https://zenodo.org/records/10494636) to ensure proper execution of the code and demonstrations in this repository.
 
-The directory structure of the Zenodo data is as follows:</br>
+The directory structure of `READRetro_data` is as follows:</br>
 READRetro_data</br>
     ├── data.sh</br>
     ├── data</br>
@@ -22,18 +21,16 @@ READRetro_data</br>
     ├── result</br>
     └── scripts</br>
 
-Place the READRetro_data into the READRetro directory (i.e., READRetro/READRetro_data) and run `sh data.sh` in READRetro_data to set up the data.</br>
+Place `READRetro_data` into the READRetro directory (i.e., READRetro/READRetro_data) and run `sh data.sh` in `READRetro_data` to set up the data.</br>
 
-Ensure the data is correctly located in READRetro. Verify the following:</br>
+Ensure the data is correctly located in `READRetro`. Verify the following:</br>
 - `READRetro/retroformer/saved_models` should match `READRetro_data/model/retroformer/saved_models`</br> 
 - `READRetro/g2s/saved_models` should match `READRetro_data/model/g2s/saved_models`</br>
 - `READRetro/data` should match `READRetro_data/data/multistep_data`</br>
 - `READRetro/result` should match `READRetro_data/result`</br>
 - `READRetro/scripts` should match `READRetro_data/scripts`</br>
 
-The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, and `READRetro_data/data/model_train_data` are requires for reproducing the manuscript.
-
-Please verify the setup. This information serves as the header for the README.md file in the READRetro GitHub repository.
+The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, and `READRetro_data/data/model_train_data` are required for reproducing the manuscript.
 
 
 ## Installation
@@ -43,6 +40,7 @@ conda create -n readretro python=3.8 -y
 conda activate readretro
 pip install readretro==1.1.0
 ```
+
 #### From github
 Run the following commands to install the dependencies:
 ```bash
