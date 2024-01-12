@@ -21,7 +21,7 @@ READRetro_data</br>
     ├── result</br>
     └── scripts</br>
 
-Place `READRetro_data` into the READRetro directory (i.e., READRetro/READRetro_data) and run `sh data.sh` in `READRetro_data` to set up the data.</br>
+Place `READRetro_data` into the READRetro directory (i.e., `READRetro/READRetro_data`) and run `sh data.sh` in `READRetro_data` to set up the data.</br>
 
 Ensure the data is correctly located in `READRetro`. Verify the following:</br>
 - `READRetro/retroformer/saved_models` should match `READRetro_data/model/retroformer/saved_models`</br> 
