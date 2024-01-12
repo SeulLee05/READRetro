@@ -25,11 +25,11 @@ The directory structure of `READRetro_data` is as follows:</br>
 Place `READRetro_data` into the READRetro directory (i.e., `READRetro/READRetro_data`) and run `sh data.sh` in `READRetro_data` to set up the data.</br>
 
 Ensure the data is correctly located in `READRetro`. Verify the following:</br>
-- `READRetro/retroformer/saved_models` should match `READRetro_data/model/retroformer/saved_models`</br> 
-- `READRetro/g2s/saved_models` should match `READRetro_data/model/g2s/saved_models`</br>
-- `READRetro/data` should match `READRetro_data/data/multistep_data`</br>
-- `READRetro/result` should match `READRetro_data/result`</br>
-- `READRetro/scripts` should match `READRetro_data/scripts`</br>
+- `READRetro/retroformer/saved_models` should match `READRetro_data/model/retroformer/saved_models`.</br>
+- `READRetro/g2s/saved_models` should match `READRetro_data/model/g2s/saved_models`.</br>
+- `READRetro/data` should match `READRetro_data/data/multistep_data`.</br>
+- `READRetro/result` should match `READRetro_data/result`.</br>
+- `READRetro/scripts` should match `READRetro_data/scripts`.</br>
 
 The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, and `READRetro_data/data/model_train_data` are required for reproducing the manuscript.
 
