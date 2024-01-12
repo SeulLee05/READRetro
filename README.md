@@ -47,7 +47,7 @@ Run the following commands to install the dependencies:
 conda create -n readretro python=3.8
 conda activate readretro
 conda install pytorch==1.12.0 cudatoolkit=11.3 -c pytorch
-pip install easydict pandas tqdm numpy==1.22 OpenNMT-py==2.3.0 networkx==2.5    # need to fix the miner version of numpy (np.bool was deprecated)
+pip install easydict pandas tqdm numpy==1.22 OpenNMT-py==2.3.0 networkx==2.5
 conda install -c conda-forge rdkit=2019.09
 ```
 
