@@ -6,20 +6,21 @@ We also provide [a web version](https://readretro.net) for ease of use.
 Download the necessary data folder `READRetro_data` from [Zenodo](https://zenodo.org/records/10494636) to ensure proper execution of the code and demonstrations in this repository.
 
 The directory structure of `READRetro_data` is as follows:</br>
-READRetro_data</br>
-    ├── data.sh</br>
-    ├── data</br>
-    │   ├── model_train_data</br>
-    │   └── multistep_data</br>
-    ├── model</br>
-    │   ├── bionavi</br>
-    │   ├── g2s</br>
-    │   │   └── saved_models</br>
-    │   ├── megan</br>
-    │   └── retroformer</br>
-    │       └── saved_models</br>
-    ├── result</br>
-    └── scripts</br>
+
+    READRetro_data
+        ├── data.sh
+        ├── data
+        │   ├── model_train_data
+        │   └── multistep_data
+        ├── model
+        │   ├── bionavi
+        │   ├── g2s
+        │   │   └── saved_models
+        │   ├── megan
+        │   └── retroformer
+        │       └── saved_models
+        ├── result
+        └── scripts
 
 Place `READRetro_data` into the READRetro directory (i.e., `READRetro/READRetro_data`) and run `sh data.sh` in `READRetro_data` to set up the data.</br>
 
