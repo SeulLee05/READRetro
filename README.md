@@ -35,14 +35,6 @@ The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, an
 
 
 ## Installation
-#### From pip
-```bash
-conda create -n readretro python=3.8 -y
-conda activate readretro
-pip install readretro==1.1.0
-```
-
-#### From github
 Run the following commands to install the dependencies:
 ```bash
 conda create -n readretro python=3.8
@@ -50,6 +42,14 @@ conda activate readretro
 conda install pytorch==1.12.0 cudatoolkit=11.3 -c pytorch
 pip install easydict pandas tqdm numpy==1.22 OpenNMT-py==2.3.0 networkx==2.5
 conda install -c conda-forge rdkit=2019.09
+```
+
+#### From pip
+Alternatively, you can use pip to install the dependencies:
+```bash
+conda create -n readretro python=3.8 -y
+conda activate readretro
+pip install readretro==1.1.0
 ```
 
 ## Model Preparation
