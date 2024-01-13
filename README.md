@@ -58,14 +58,10 @@ You can use your own models trained using the official codes (https://github.com
 More detailed instructions can be found in `demo.ipynb`.
 
 ## Single-step Planning and Evaluation
-Run the following command to evaluate the single-step performance of the models:
+Run the following commands to evaluate the single-step performance of the models:
 ```bash
 CUDA_VISIBLE_DEVICES=${gpu_id} python eval_single.py                    # ensemble
-```
-```bash
 CUDA_VISIBLE_DEVICES=${gpu_id} python eval_single.py -m retroformer     # Retroformer
-```
-```bash
 CUDA_VISIBLE_DEVICES=${gpu_id} python eval_single.py -m g2s -s 200      # Graph2SMILES
 ```
 
