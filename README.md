@@ -45,7 +45,7 @@ conda install -c conda-forge rdkit=2019.09
 ```
 
 #### From pip
-Alternatively, you can use pip to install the dependencies:
+Alternatively, you can install the `readretro` package through pip:
 ```bash
 conda create -n readretro python=3.8 -y
 conda activate readretro
