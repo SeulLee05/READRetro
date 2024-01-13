@@ -44,7 +44,6 @@ pip install easydict pandas tqdm numpy==1.22 OpenNMT-py==2.3.0 networkx==2.5
 conda install -c conda-forge rdkit=2019.09
 ```
 
-#### From pip
 Alternatively, you can install the `readretro` package through pip:
 ```bash
 conda create -n readretro python=3.8 -y
