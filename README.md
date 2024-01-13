@@ -31,7 +31,7 @@ Ensure the data is correctly located in `READRetro`. Verify the following:</br>
 - `READRetro/result` should match `READRetro_data/result`.</br>
 - `READRetro/scripts` should match `READRetro_data/scripts`.</br>
 
-The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, and `READRetro_data/data/model_train_data` are required for reproducing the manuscript.
+The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, and `READRetro_data/data/model_train_data` are required for reproducing the values in the manuscript.
 
 
 ## Installation
