@@ -33,7 +33,6 @@ Ensure the data is correctly located in `READRetro`. Verify the following:</br>
 
 The directories `READRetro_data/model/bionavi`, `READRetro_data/model/megan`, and `READRetro_data/data/model_train_data` are required for reproducing the values in the manuscript.
 
-
 ## Installation
 Run the following commands to install the dependencies:
 ```bash
@@ -48,7 +47,7 @@ Alternatively, you can install the `readretro` package through pip:
 ```bash
 conda create -n readretro python=3.8 -y
 conda activate readretro
-pip install readretro==1.1.0
+pip install readretro==1.2.0
 ```
 
 ## Model Preparation
@@ -78,11 +77,13 @@ Run the following command to plan the retrosynthesis path of your own molecule:
 CUDA_VISIBLE_DEVICES=${gpu_id} python run.py ${product}
 # e.g., CUDA_VISIBLE_DEVICES=0 python run.py 'O=C1C=C2C=CC(O)CC2O1'
 ```
-#### Using a command from pip
+
+#### Using the command from pip
 ``` bash
 run_readretro -rc ${retroformer_ckpt} -gc ${g2s_ckpt} ${product}
 # e.g., run_readretro -rc retroformer/saved_models/biochem.pt -gc g2s/saved_models/biochem.pt 'O=C1C=C2C=CC(O)CC2O1'
 # you can replace the checkpoints with your own trained checkpoints of retroformer and g2s
+# you should set the corresponding vocab file as an option if you replace the checkpoints
 ```
 You can modify other hyperparameters described in `run.py`.
 
