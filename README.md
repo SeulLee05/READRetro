@@ -3,7 +3,7 @@ This is the official code repository for the paper [*READRetro: Natural Product 
 We also provide [a web version](https://readretro.net) for ease of use.
 
 ## Data
-Download the necessary data folder `READRetro_data` from [Zenodo](https://zenodo.org/records/10495132) to ensure proper execution of the code and demonstrations in this repository.
+Download the necessary data folder `READRetro_data` from [Zenodo](https://zenodo.org/records/11485641) to ensure proper execution of the code and demonstrations in this repository.
 
 The directory structure of `READRetro_data` is as follows:</br>
 
